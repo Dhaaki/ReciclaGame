@@ -1,6 +1,6 @@
-# 📁 Estrutura do Projeto - Jogo Educativo de Reciclagem
+#  Estrutura do Projeto - Jogo Educativo de Reciclagem
 
-## 🏗️ Arquitetura Geral
+##  Arquitetura Geral
 
 O projeto segue uma arquitetura **cliente-servidor** com separação clara entre front-end e back-end.
 
@@ -13,7 +13,7 @@ projeto-faucl/
 └── ESTRUTURA_PROJETO.md  # Este arquivo
 ```
 
-## 📂 Back-end (API REST)
+##  Back-end (API REST)
 
 ### Estrutura de Pastas
 
@@ -111,7 +111,7 @@ frontend/
 - `/ranking` - Ver ranking
 - `/history` - Ver histórico
 
-## 🗄️ Banco de Dados (PostgreSQL)
+##  Banco de Dados (PostgreSQL)
 
 ### Tabelas
 
@@ -155,7 +155,7 @@ frontend/
 - `data_resposta` (TIMESTAMP)
 - UNIQUE(user_id, quiz_id)
 
-## 🎮 Sistema de Gamificação
+## Sistema de Gamificação
 
 ### Pontuação por Material
 - **Papel**: 10 pontos/unidade
@@ -170,14 +170,14 @@ frontend/
 - **Sustentável**: 301-600 pontos 🌳
 - **Agente Verde**: 601+ pontos 🏆
 
-## 🔐 Segurança
+##  Segurança
 
 - Autenticação via JWT (JSON Web Tokens)
 - Senhas criptografadas com bcrypt
 - Validação de dados no back-end
 - Middleware de autenticação para rotas protegidas
 
-## 📦 Dependências Principais
+##  Dependências Principais
 
 ### Back-end
 - `express` - Framework web
@@ -194,7 +194,7 @@ frontend/
 - `axios` - Cliente HTTP
 - `chart.js` / `react-chartjs-2` - Gráficos (preparado para uso futuro)
 
-## 🚀 Fluxo de Dados
+##  Fluxo de Dados
 
 1. **Usuário interage** com a interface React
 2. **Front-end envia** requisição HTTP para a API
@@ -203,7 +203,7 @@ frontend/
 5. **Back-end retorna** resposta JSON
 6. **Front-end atualiza** a interface com os dados recebidos
 
-## 📝 Notas Importantes
+##  Notas Importantes
 
 - O projeto é um **protótipo funcional** para testes piloto
 - Foco em **funcionalidade e clareza arquitetural**
