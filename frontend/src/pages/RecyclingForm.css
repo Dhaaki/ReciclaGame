@@ -1,0 +1,37 @@
+.recycling-form-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.recycling-form-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recycling-form-card h1 {
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.recycling-form-card .form-group small {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+  font-size: 12px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.form-actions .btn {
+  flex: 1;
+}

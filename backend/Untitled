@@ -1,0 +1,7 @@
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=reciclagem_game
+DB_USER=postgres
+DB_PASSWORD=sua_senha_aqui
+PORT=3001
+JWT_SECRET=seu_secret_jwt_muito_seguro_aqui_use_uma_string_aleatoria

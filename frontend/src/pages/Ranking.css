@@ -1,0 +1,102 @@
+.ranking-page {
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.ranking-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ranking-header h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.ranking-header p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+}
+
+.ranking-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 18px;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ranking-table thead {
+  background: #f8f9fa;
+}
+
+.ranking-table th {
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.ranking-table td {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.ranking-table tr:hover {
+  background: #f8f9fa;
+}
+
+.ranking-table tr.top-three {
+  background: #fff9e6;
+}
+
+.ranking-table tr.top-three:hover {
+  background: #fff3cd;
+}
+
+.position {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 80px;
+}
+
+.name {
+  font-weight: 600;
+  color: #333;
+}
+
+.level-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.points {
+  font-weight: bold;
+  color: #667eea;
+  font-size: 18px;
+}
+
+.records {
+  color: #666;
+}

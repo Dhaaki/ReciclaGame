@@ -1,0 +1,30 @@
+# Comandos Git para Enviar o Projeto
+
+# 1. Inicializar repositório
+git init
+
+# 2. Adicionar todos os arquivos
+git add .
+
+# 3. Fazer commit inicial
+git commit -m "Initial commit: Jogo educativo de reciclagem sustentável"
+
+# 4. Adicionar remote do GitHub
+git remote add origin https://github.com/Dhaaki/ReciclaGame.git
+
+# 5. Verificar remote
+git remote -v
+
+# 6. Renomear branch para main
+git branch -M main
+
+# 7. Enviar para o GitHub
+git push -u origin main
+
+# ============================================
+# Para futuras atualizações:
+# ============================================
+
+git add .
+git commit -m "Descrição das mudanças"
+git push

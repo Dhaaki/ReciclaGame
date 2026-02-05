@@ -1,0 +1,13 @@
+INSTRUÇÕES PARA CRIAR O ARQUIVO .env
+
+1. Crie um arquivo chamado .env na pasta frontend (mesmo nível do package.json)
+
+2. O conteúdo do arquivo deve ser:
+
+REACT_APP_API_URL=http://localhost:3001/api
+
+3. Após criar o arquivo, REINICIE o servidor React:
+   - Pressione Ctrl+C no terminal onde o React está rodando
+   - Execute: npm start
+
+4. O código já foi atualizado para garantir que sempre use /api, mas o .env é recomendado.
